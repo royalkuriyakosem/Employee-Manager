@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,34 +32,37 @@
                 <div class="fields">
                     <form action="">
                         <div class="input-values">
-                            <label for="Employee">Employee Name</label><br>
+                            <label for="Employee">Employee Name</label>
                             <input type="text" placeholder="Employee Name">
                         </div>
                         <div class="input-values">
-                            <label for="Employee">Employee ID</label><br>
+                            <label for="Employee">Employee ID</label>
                             <input type="text" placeholder="Employee ID">
                         </div>
                         <div class="input-values">
-                            <label for="Employee">Joining Date</label><br>
+                            <label for="Employee">Joining Date</label> 
                             <input type="text" placeholder="Joining Date">
                         </div>
                         <div class="input-values">
-                            <label for="Employee">Role</label><br>
-                            <input type="dropdown" placeholder="Role">
-                             <!-- <select name="Role" id="Role" >
-                                <option value="Role" selected></option>
-                             </select> -->
+                            <label for="Employee">Role</label> 
+                             <select name="Role" id="Role" required >
+                                <option value="" disabled selected>Choose Role</option>
+                                <option value="admin">Admin</option>
+                                <option value="employee">Employee</option>
+                             </select>
                         </div>
                         <div class="input-values">
-                            <label for="Employee">Status</label><br>
-                            <input type="dropdown" placeholder="Status">
+                            <label for="Employee">Status</label> 
+                            <select name="status" id="status">
+                                <option value="">Status</option>
+                            </select>
                         </div>
                         <div class="input-values">
-                            <label for="Employee">Experience</label><br>
+                            <label for="Employee">Experience</label> 
                             <input type="text" placeholder="Experience">
                         </div>
                         <div class="address-wrapper">
-                            <label for="Employee">Address</label><br>
+                            <label for="Employee">Address</label> 
                             <div class="address">
                                 <input type="text" placeholder="Address" class="address-name">
                                 <input type="text" placeholder="City" class="city">
@@ -64,9 +70,9 @@
                                 <input type="text" placeholder="Postal Code" class="postal-code">
                             </div>
                         </div>
-                        <div class="input-values">
-                            <label for="Employee">Employee Name</label><br>
-                            <input type="text" placeholder="Employee Name">
+                        <div class="input-values upload-proof">
+                            <label for="Employee">Upload ID Proof</label>
+                            <input type="text" placeholder='&#x1F4CE; Attach Files'>
                         </div>
                         
                     </form>
