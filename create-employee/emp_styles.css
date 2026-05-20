@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 60px;
+    width: auto;
+    padding: 10px 20px ;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    border-bottom: 1px solid #CCCCCC;
+
+}
+
+aside{
+    width: 300px;
+    /* height: ; */
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+main{
+    /* height: calc(100vh - 40px); */
+    background-color: #501f91;
+}
+
+
+
+.list-wrapper{
+    width: 276px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #1EB4F0;
+    margin-top: 20px;
+    border-radius: 27px 0px 0px 27px;
+    gap:10px
+
+
+}
+.content-wrapper{
+    display: flex;
+    /* height: 100%; */
+    background-color: black;
+}
+
+.create-employee {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #F3F6FA;
+    height: calc(100vh - 80px);    
+}
+
+.create-employee div {
+    margin: 16px 20px;
+    background: white;
+    height: 60x;
+    /* width: 100%; */
+}
+
+.fields{
+   
+
+}
+
+.create-employee-heading {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.input-values input {
+    height: 35px;
+    width: 400px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.input-values select{
+    height: 35px;
+    width: 400px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 2px;
+    color: black;
+}
+
+.input-values {
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+}
+
+.address{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 400px;
+    margin-left: -100px;
+    
+}
+
+.address-name {
+    height: 35px;
+    width: 400px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+}
+.city {
+    height: 35px;
+    width: 195px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+}
+.country{
+    height: 35px;
+    width: 195px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+}
+
+.postal-code{
+    height: 35px;
+    width: 195px;
+    border: 1px solid #C6CDD9;
+    background: #FAFAFA;
+    padding-left: 10px;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+
+}
+
+.button-wrapper button{
+    height: 45px;
+    width: 166px;
+    border-radius: 8px;
+}
+.button-submit{
+    background: #03AEEE;
+    border: none;
+    color: white;
+}
+.button-cancel{
+    border: 1px solid #63667A;
+}
+
+.list-icon{
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 50%;
+    margin-left:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-icon img{
+    height: 20px;
+    width: auto;
+}
+.list-name{
+    color: white;
+
+}
